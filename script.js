@@ -103,7 +103,7 @@ console.log(calculator(3, 9, "*"));
 // ravi ase gavakete me
 
 function celsiusToFahrenheit(celsius) {
-  fahrenheit = (celsius * 9) / 5 + 32;
+  fahrenheit = celsius * (9 / 5) + 32;
   return ` ${fahrenheit} °F `;
 }
 let fahrenheit;
@@ -256,4 +256,6 @@ function positiveSum(a, b) {
     return `მინიმუმ ერთი რიცხვი უარყოფითია`;
   }
 }
+
 console.log(positiveSum(3, 4));
+
